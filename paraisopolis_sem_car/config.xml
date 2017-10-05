@@ -1,0 +1,3 @@
+<scsimulator_config>
+<config trip_file="../paraisopolis_sem_car/trips.xml" map_file="../paraisopolis_sem_car/map.xml" output_file="../paraisopolis_sem_car/events.xml" metro_file="../paraisopolis_sem_car/metro.xml" bus_file="../paraisopolis_sem_car/buses.xml"  simulation_time="100000"/>
+</scsimulator_config>
