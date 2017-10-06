@@ -1,3 +1,3 @@
 <scsimulator_config>
-<config trip_file="../paraisopolis_tudo/trips.xml" map_file="../paraisopolis_tudo/map.xml" output_file="../paraisopolis_tudo/events.xml" metro_file="../paraisopolis_tudo/metro.xml" bus_file="../paraisopolis_tudo/buses.xml"  simulation_time="100000"/>
+<config trip_file="../paraisopolis_tudo/trips.xml" map_file="../paraisopolis_tudo/map.xml" output_file="../paraisopolis_tudo/events.xml" metro_file="../paraisopolis_tudo/metro.xml" bus_file="../paraisopolis_tudo/buses.xml" generate_graph="false" simulation_time="100000"/>
 </scsimulator_config>
