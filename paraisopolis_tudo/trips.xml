@@ -6,11 +6,7 @@
       <trip origin="1107272621" link_origin="17435" destination="304693615" link_destination="48567" line="675N-10-0" mode="bus"/>
       <trip origin="304693615" link_origin="48567" destination="304693626" mode="walk"/>
    </multi_trip>
-   <multi_trip name="2" count="82" start="27601" mode="metro" type="hospital">
-      <trip origin="4197294783" link_origin="49465" destination="4411605848" mode="walk"/>
-      <trip origin="4411605848" link_origin="19302" destination="302731524" link_destination="69739" mode="metro"/>
-      <trip origin="302731524" link_origin="69739" destination="28637975" mode="walk"/>
-   </multi_trip>
+   <trip name="2" origin="4197294783" destination="28637975" link_origin="49465" count="82" start="27601" mode="car" />
    <multi_trip name="3" count="82" start="45001" mode="metro" type="hospital">
       <trip origin="4197294783" link_origin="49465" destination="4411605848" mode="walk"/>
       <trip origin="4411605848" link_origin="19302" destination="2578181865" link_destination="62181" mode="metro"/>
@@ -37,21 +33,9 @@
       <trip origin="2951364448" link_origin="73337" destination="173361748" link_destination="14011" mode="metro"/>
       <trip origin="173361748" link_origin="14011" destination="3246072292" mode="walk"/>
    </multi_trip>
-   <multi_trip name="9" count="74" start="50401" mode="metro" type="hospital">
-      <trip origin="4197294783" link_origin="49465" destination="4411605848" mode="walk"/>
-      <trip origin="4411605848" link_origin="19302" destination="1415720983" link_destination="98889" mode="metro"/>
-      <trip origin="1415720983" link_origin="98889" destination="206292022" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="10" count="74" start="45781" mode="metro" type="hospital">
-      <trip origin="4197294783" link_origin="49465" destination="4411605848" mode="walk"/>
-      <trip origin="4411605848" link_origin="19302" destination="1415720983" link_destination="98889" mode="metro"/>
-      <trip origin="1415720983" link_origin="98889" destination="206292022" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="11" count="155" start="52621" mode="metro" type="hospital">
-      <trip origin="3358127166" link_origin="10647" destination="3358127152" mode="walk"/>
-      <trip origin="3358127152" link_origin="29669" destination="466808387" link_destination="27914" mode="metro"/>
-      <trip origin="466808387" link_origin="27914" destination="453217351" mode="walk"/>
-   </multi_trip>
+   <trip name="9" origin="4197294783" destination="206292022" link_origin="49465" count="74" start="50401" mode="car" />
+   <trip name="10" origin="4197294783" destination="206292022" link_origin="49465" count="74" start="45781" mode="car" />
+   <trip name="11" origin="3358127166" destination="453217351" link_origin="10647" count="155" start="52621" mode="car" />
    <multi_trip name="12"  count="77" start="41401" mode="bus" type="hospital">
       <trip origin="31468648" link_origin="44565" destination="4197294767" mode="walk"/>
       <trip origin="4197294767" link_origin="18278" destination="938875634" link_destination="112418" line="8020-10-1" mode="bus"/>
@@ -61,16 +45,8 @@
       <trip origin="465015309" link_origin="36591" destination="465084564" link_destination="81599" line="809U-10-0" mode="bus"/>
       <trip origin="465084564" link_origin="81599" destination="439652603" mode="walk"/>
    </multi_trip>
-   <multi_trip name="13" count="81" start="64801" mode="metro" type="hospital">
-      <trip origin="31468559" link_origin="44553" destination="4411605851" mode="walk"/>
-      <trip origin="4411605851" link_origin="119185" destination="1707836311" link_destination="81540" mode="metro"/>
-      <trip origin="1707836311" link_origin="81540" destination="432480498" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="14" count="81" start="64801" mode="metro" type="hospital">
-      <trip origin="31468559" link_origin="44553" destination="4411605851" mode="walk"/>
-      <trip origin="4411605851" link_origin="119185" destination="1707836311" link_destination="81540" mode="metro"/>
-      <trip origin="1707836311" link_origin="81540" destination="432480498" mode="walk"/>
-   </multi_trip>
+   <trip name="13" origin="31468559" destination="432480498" link_origin="44553" count="81" start="64801" mode="car" />
+   <trip name="14" origin="31468559" destination="432480498" link_origin="44553" count="81" start="64801" mode="car" />
    <trip name="15" origin="31468434" destination="298815137" link_origin="44533" count="42" start="48601" mode="car" />
    <multi_trip name="16"  count="153" start="72001" mode="bus" type="hospital">
       <trip origin="2050908614" link_origin="102181" destination="3358127173" mode="walk"/>
@@ -81,16 +57,8 @@
       <trip origin="465878303" link_origin="93928" destination="2386710939" link_destination="61594" line="N205-11-1" mode="bus"/>
       <trip origin="2386710939" link_origin="61594" destination="453567848" mode="walk"/>
    </multi_trip>
-   <multi_trip name="17" count="68" start="42301" mode="metro" type="hospital">
-      <trip origin="4197294783" link_origin="49465" destination="4411605848" mode="walk"/>
-      <trip origin="4411605848" link_origin="19302" destination="302731524" link_destination="69739" mode="metro"/>
-      <trip origin="302731524" link_origin="69739" destination="305196318" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="18" count="27" start="46801" mode="metro" type="hospital">
-      <trip origin="31468434" link_origin="44533" destination="2951364448" mode="walk"/>
-      <trip origin="2951364448" link_origin="73337" destination="302563666" link_destination="67904" mode="metro"/>
-      <trip origin="302563666" link_origin="67904" destination="302564138" mode="walk"/>
-   </multi_trip>
+   <trip name="17" origin="4197294783" destination="305196318" link_origin="49465" count="68" start="42301" mode="car" />
+   <trip name="18" origin="31468434" destination="302564138" link_origin="44533" count="27" start="46801" mode="car" />
    <multi_trip name="19"  count="417" start="57601" mode="bus" type="hospital">
       <trip origin="4197294783" link_origin="49465" destination="4197294767" mode="walk"/>
       <trip origin="4197294767" link_origin="18278" destination="1107272621" link_destination="17435" line="8020-10-0" mode="bus"/>
@@ -100,31 +68,15 @@
    </multi_trip>
    <trip name="20" origin="31468434" destination="938798584" link_origin="44533" count="30" start="64801" mode="car" />
    <trip name="21" origin="31468434" destination="938798584" link_origin="44533" count="30" start="64801" mode="car" />
-   <multi_trip name="22" count="30" start="45001" mode="metro" type="hospital">
-      <trip origin="4197294783" link_origin="49465" destination="4411605848" mode="walk"/>
-      <trip origin="4411605848" link_origin="19302" destination="1741005300" link_destination="50950" mode="metro"/>
-      <trip origin="1741005300" link_origin="50950" destination="938887247" mode="walk"/>
-   </multi_trip>
+   <trip name="22" origin="4197294783" destination="938887247" link_origin="49465" count="30" start="45001" mode="car" />
    <multi_trip name="23" count="7" start="82801" mode="metro" type="hospital">
       <trip origin="2529285836" link_origin="102268" destination="3358127152" mode="walk"/>
       <trip origin="3358127152" link_origin="29669" destination="25718011" link_destination="50144" mode="metro"/>
       <trip origin="25718011" link_origin="50144" destination="765121497" mode="walk"/>
    </multi_trip>
-   <multi_trip name="24" count="7" start="45001" mode="metro" type="hospital">
-      <trip origin="2050908616" link_origin="102183" destination="3358127152" mode="walk"/>
-      <trip origin="3358127152" link_origin="29669" destination="25629443" link_destination="50243" mode="metro"/>
-      <trip origin="25629443" link_origin="50243" destination="938867038" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="25" count="26" start="64801" mode="metro" type="hospital">
-      <trip origin="31468434" link_origin="44533" destination="2951364448" mode="walk"/>
-      <trip origin="2951364448" link_origin="73337" destination="25629443" link_destination="50243" mode="metro"/>
-      <trip origin="25629443" link_origin="50243" destination="315145581" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="26" count="26" start="68401" mode="metro" type="hospital">
-      <trip origin="31468434" link_origin="44533" destination="2951364448" mode="walk"/>
-      <trip origin="2951364448" link_origin="73337" destination="25629443" link_destination="50243" mode="metro"/>
-      <trip origin="25629443" link_origin="50243" destination="315145581" mode="walk"/>
-   </multi_trip>
+   <trip name="24" origin="2050908616" destination="938867038" link_origin="102183" count="7" start="45001" mode="car" />
+   <trip name="25" origin="31468434" destination="315145581" link_origin="44533" count="26" start="64801" mode="car" />
+   <trip name="26" origin="31468434" destination="315145581" link_origin="44533" count="26" start="68401" mode="car" />
    <trip name="27" origin="4197294772" destination="2529833688" link_origin="49475" count="28" start="68401" mode="walk" />
    <trip name="28" origin="4197294772" destination="2529833688" link_origin="49475" count="28" start="68401" mode="walk" />
    <trip name="29" origin="4197294772" destination="2529833688" link_origin="49475" count="28" start="68401" mode="walk" />
@@ -135,65 +87,25 @@
    <trip name="34" origin="4197294772" destination="2529833688" link_origin="49475" count="28" start="68401" mode="walk" />
    <trip name="35" origin="4197294772" destination="2529833688" link_origin="49475" count="28" start="68401" mode="walk" />
    <trip name="36" origin="4197294772" destination="2529833688" link_origin="49475" count="28" start="68401" mode="walk" />
-   <multi_trip name="37" count="26" start="43201" mode="metro" type="hospital">
-      <trip origin="4197294783" link_origin="49465" destination="4411605848" mode="walk"/>
-      <trip origin="4411605848" link_origin="19302" destination="25629443" link_destination="50243" mode="metro"/>
-      <trip origin="25629443" link_origin="50243" destination="470048892" mode="walk"/>
-   </multi_trip>
+   <trip name="37" origin="4197294783" destination="470048892" link_origin="49465" count="26" start="43201" mode="car" />
    <trip name="38" origin="4197294772" destination="469701929" link_origin="49475" count="26" start="46801" mode="car" />
    <trip name="39" origin="4197294772" destination="469701929" link_origin="49475" count="26" start="73801" mode="car" />
    <trip name="40" origin="4197294783" destination="469701929" link_origin="49465" count="26" start="57601" mode="car" />
-   <multi_trip name="41" count="26" start="45001" mode="metro" type="hospital">
-      <trip origin="4197294783" link_origin="49465" destination="4411605848" mode="walk"/>
-      <trip origin="4411605848" link_origin="19302" destination="3358127152" link_destination="29669" mode="metro"/>
-      <trip origin="3358127152" link_origin="29669" destination="2529833831" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="42" count="26" start="26101" mode="metro" type="hospital">
-      <trip origin="4197294783" link_origin="49465" destination="4411605848" mode="walk"/>
-      <trip origin="4411605848" link_origin="19302" destination="25641395" link_destination="50239" mode="metro"/>
-      <trip origin="25641395" link_origin="50239" destination="3892918279" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="43" count="26" start="48601" mode="metro" type="hospital">
-      <trip origin="4197294783" link_origin="49465" destination="4411605848" mode="walk"/>
-      <trip origin="4411605848" link_origin="19302" destination="25641395" link_destination="50239" mode="metro"/>
-      <trip origin="25641395" link_origin="50239" destination="3892918279" mode="walk"/>
-   </multi_trip>
+   <trip name="41" origin="4197294783" destination="2529833831" link_origin="49465" count="26" start="45001" mode="car" />
+   <trip name="42" origin="4197294783" destination="3892918279" link_origin="49465" count="26" start="26101" mode="car" />
+   <trip name="43" origin="4197294783" destination="3892918279" link_origin="49465" count="26" start="48601" mode="car" />
    <trip name="44" origin="4197294783" destination="663049652" link_origin="49465" count="27" start="26401" mode="car" />
    <trip name="45" origin="4197294783" destination="469701837" link_origin="49465" count="27" start="61201" mode="car" />
    <trip name="46" origin="4197294783" destination="469701837" link_origin="49465" count="27" start="61201" mode="car" />
    <trip name="47" origin="4197294783" destination="469701837" link_origin="49465" count="27" start="61201" mode="car" />
    <trip name="48" origin="1740921871" destination="2529833694" link_origin="18279" count="26" start="57601" mode="car" />
    <trip name="49" origin="1740921871" destination="2529833694" link_origin="18279" count="26" start="57601" mode="car" />
-   <multi_trip name="50" count="17" start="43201" mode="metro" type="hospital">
-      <trip origin="1738795141" link_origin="103677" destination="2951364448" mode="walk"/>
-      <trip origin="2951364448" link_origin="73337" destination="3358127152" link_destination="29669" mode="metro"/>
-      <trip origin="3358127152" link_origin="29669" destination="1738793057" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="51" count="17" start="82801" mode="metro" type="hospital">
-      <trip origin="1738795141" link_origin="103677" destination="2951364448" mode="walk"/>
-      <trip origin="2951364448" link_origin="73337" destination="3358127152" link_destination="29669" mode="metro"/>
-      <trip origin="3358127152" link_origin="29669" destination="1738793057" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="52" count="17" start="82801" mode="metro" type="hospital">
-      <trip origin="1738795141" link_origin="103677" destination="2951364448" mode="walk"/>
-      <trip origin="2951364448" link_origin="73337" destination="3358127152" link_destination="29669" mode="metro"/>
-      <trip origin="3358127152" link_origin="29669" destination="1738793057" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="53" count="13" start="66301" mode="metro" type="hospital">
-      <trip origin="1740915752" link_origin="102267" destination="3358127152" mode="walk"/>
-      <trip origin="3358127152" link_origin="29669" destination="3358127152" link_destination="29669" mode="metro"/>
-      <trip origin="3358127152" link_origin="29669" destination="1740915591" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="54" count="13" start="63001" mode="metro" type="hospital">
-      <trip origin="1738795141" link_origin="103677" destination="2951364448" mode="walk"/>
-      <trip origin="2951364448" link_origin="73337" destination="3358127152" link_destination="29669" mode="metro"/>
-      <trip origin="3358127152" link_origin="29669" destination="1740915591" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="55" count="13" start="63601" mode="metro" type="hospital">
-      <trip origin="1740915752" link_origin="102267" destination="3358127152" mode="walk"/>
-      <trip origin="3358127152" link_origin="29669" destination="3358127152" link_destination="29669" mode="metro"/>
-      <trip origin="3358127152" link_origin="29669" destination="1740915591" mode="walk"/>
-   </multi_trip>
+   <trip name="50" origin="1738795141" destination="1738793057" link_origin="103677" count="17" start="43201" mode="car" />
+   <trip name="51" origin="1738795141" destination="1738793057" link_origin="103677" count="17" start="82801" mode="car" />
+   <trip name="52" origin="1738795141" destination="1738793057" link_origin="103677" count="17" start="82801" mode="car" />
+   <trip name="53" origin="1740915752" destination="1740915591" link_origin="102267" count="13" start="66301" mode="car" />
+   <trip name="54" origin="1738795141" destination="1740915591" link_origin="103677" count="13" start="63001" mode="car" />
+   <trip name="55" origin="1740915752" destination="1740915591" link_origin="102267" count="13" start="63601" mode="car" />
    <trip name="56" origin="1738793112" destination="940897238" link_origin="44525" count="13" start="43201" mode="walk" />
    <trip name="57" origin="1738793110" destination="940897238" link_origin="102222" count="13" start="30001" mode="walk" />
    <trip name="58" origin="1738793110" destination="940897238" link_origin="102222" count="13" start="30001" mode="walk" />
@@ -204,26 +116,10 @@
       <trip origin="1740915629" link_origin="29690" destination="3894483984" mode="walk"/>
    </multi_trip>
    <trip name="61" origin="1738795123" destination="3894483984" link_origin="103641" count="13" start="82801" mode="walk" />
-   <multi_trip name="62" count="19" start="26401" mode="metro" type="hospital">
-      <trip origin="4197294767" link_origin="18278" destination="4411605851" mode="walk"/>
-      <trip origin="4411605851" link_origin="119185" destination="3358127152" link_destination="29669" mode="metro"/>
-      <trip origin="3358127152" link_origin="29669" destination="1738793057" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="63" count="12" start="65701" mode="metro" type="hospital">
-      <trip origin="31468434" link_origin="44533" destination="2951364448" mode="walk"/>
-      <trip origin="2951364448" link_origin="73337" destination="2367473602" link_destination="88415" mode="metro"/>
-      <trip origin="2367473602" link_origin="88415" destination="299169927" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="64" count="12" start="63901" mode="metro" type="hospital">
-      <trip origin="4197294783" link_origin="49465" destination="4411605848" mode="walk"/>
-      <trip origin="4411605848" link_origin="19302" destination="1986730595" link_destination="93227" mode="metro"/>
-      <trip origin="1986730595" link_origin="93227" destination="940897242" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="65" count="19" start="78001" mode="metro" type="hospital">
-      <trip origin="1738793104" link_origin="102272" destination="2951364448" mode="walk"/>
-      <trip origin="2951364448" link_origin="73337" destination="3358127152" link_destination="29669" mode="metro"/>
-      <trip origin="3358127152" link_origin="29669" destination="3894483984" mode="walk"/>
-   </multi_trip>
+   <trip name="62" origin="4197294767" destination="1738793057" link_origin="18278" count="19" start="26401" mode="car" />
+   <trip name="63" origin="31468434" destination="299169927" link_origin="44533" count="12" start="65701" mode="car" />
+   <trip name="64" origin="4197294783" destination="940897242" link_origin="49465" count="12" start="63901" mode="car" />
+   <trip name="65" origin="1738793104" destination="3894483984" link_origin="102272" count="19" start="78001" mode="car" />
    <trip name="66" origin="31468434" destination="3358127151" link_origin="44533" count="12" start="65701" mode="walk" />
    <trip name="67" origin="31468434" destination="3358127151" link_origin="44533" count="12" start="65701" mode="walk" />
    <multi_trip name="68" count="348" start="43801" mode="metro" type="hospital">
@@ -252,11 +148,7 @@
       <trip origin="1107272621" link_origin="17435" destination="303561561" link_destination="31175" line="609F-10-0" mode="bus"/>
       <trip origin="303561561" link_origin="31175" destination="3316840666" mode="walk"/>
    </multi_trip>
-   <multi_trip name="76" count="348" start="27001" mode="metro" type="hospital">
-      <trip origin="1740915752" link_origin="102267" destination="3358127152" mode="walk"/>
-      <trip origin="3358127152" link_origin="29669" destination="2578181865" link_destination="62181" mode="metro"/>
-      <trip origin="2578181865" link_origin="62181" destination="299774363" mode="walk"/>
-   </multi_trip>
+   <trip name="76" origin="1740915752" destination="299774363" link_origin="102267" count="348" start="27001" mode="car" />
    <multi_trip name="77"  count="348" start="28801" mode="bus" type="hospital">
       <trip origin="1740915752" link_origin="102267" destination="3358127173" mode="walk"/>
       <trip origin="3358127173" link_origin="102270" destination="25675254" link_destination="61704" line="746P-10-0" mode="bus"/>
@@ -281,11 +173,7 @@
       <trip origin="2951364448" link_origin="73337" destination="2627719093" link_destination="46978" mode="metro"/>
       <trip origin="2627719093" link_origin="46978" destination="4293806265" mode="walk"/>
    </multi_trip>
-   <multi_trip name="81" count="484" start="25201" mode="metro" type="hospital">
-      <trip origin="2755099374" link_origin="46326" destination="2951364448" mode="walk"/>
-      <trip origin="2951364448" link_origin="73337" destination="2384667562" link_destination="111598" mode="metro"/>
-      <trip origin="2384667562" link_origin="111598" destination="1645973872" mode="walk"/>
-   </multi_trip>
+   <trip name="81" origin="2755099374" destination="1645973872" link_origin="46326" count="484" start="25201" mode="car" />
    <trip name="82" origin="3358127166" destination="1707722903" link_origin="10647" count="484" start="28801" mode="car" />
    <multi_trip name="83"  count="348" start="21601" mode="bus" type="hospital">
       <trip origin="3358127166" link_origin="10647" destination="3358127173" mode="walk"/>
@@ -401,11 +289,7 @@
    <trip name="113" origin="30879308" destination="1738795129" link_origin="102242" count="348" start="66001" mode="walk" />
    <trip name="114" origin="1738795129" destination="30879308" link_origin="103650" count="348" start="24601" mode="walk" />
    <trip name="115" origin="30879308" destination="1738795129" link_origin="102242" count="348" start="45001" mode="walk" />
-   <multi_trip name="116" count="348" start="19801" mode="metro" type="hospital">
-      <trip origin="1740915752" link_origin="102267" destination="3358127152" mode="walk"/>
-      <trip origin="3358127152" link_origin="29669" destination="4385186165" link_destination="15184" mode="metro"/>
-      <trip origin="4385186165" link_origin="15184" destination="1645014813" mode="walk"/>
-   </multi_trip>
+   <trip name="116" origin="1740915752" destination="1645014813" link_origin="102267" count="348" start="19801" mode="car" />
    <multi_trip name="117"  count="348" start="16201" mode="bus" type="hospital">
       <trip origin="1740915752" link_origin="102267" destination="3358127173" mode="walk"/>
       <trip origin="3358127173" link_origin="102270" destination="25675254" link_destination="61704" line="746P-10-0" mode="bus"/>
@@ -423,11 +307,7 @@
       <trip origin="3358127152" link_origin="29669" destination="3508714270" link_destination="100548" mode="metro"/>
       <trip origin="3508714270" link_origin="100548" destination="30517505" mode="walk"/>
    </multi_trip>
-   <multi_trip name="120" count="348" start="36001" mode="metro" type="hospital">
-      <trip origin="1738793065" link_origin="102231" destination="3358127152" mode="walk"/>
-      <trip origin="3358127152" link_origin="29669" destination="25641395" link_destination="50239" mode="metro"/>
-      <trip origin="25641395" link_origin="50239" destination="302284555" mode="walk"/>
-   </multi_trip>
+   <trip name="120" origin="1738793065" destination="302284555" link_origin="102231" count="348" start="36001" mode="car" />
    <multi_trip name="121"  count="348" start="66601" mode="bus" type="hospital">
       <trip origin="1738793065" link_origin="102231" destination="3358127173" mode="walk"/>
       <trip origin="3358127173" link_origin="102270" destination="31469223" link_destination="3975" line="807P-10-0" mode="bus"/>
@@ -578,11 +458,7 @@
    </multi_trip>
    <trip name="165" origin="4114784346" destination="1738793110" link_origin="99259" count="348" start="50401" mode="walk" />
    <trip name="166" origin="1738793110" destination="4114784346" link_origin="102222" count="348" start="64801" mode="walk" />
-   <multi_trip name="167" count="348" start="34201" mode="metro" type="hospital">
-      <trip origin="1740915752" link_origin="102267" destination="3358127152" mode="walk"/>
-      <trip origin="3358127152" link_origin="29669" destination="25641395" link_destination="50239" mode="metro"/>
-      <trip origin="25641395" link_origin="50239" destination="302284555" mode="walk"/>
-   </multi_trip>
+   <trip name="167" origin="1740915752" destination="302284555" link_origin="102267" count="348" start="34201" mode="car" />
    <trip name="168" origin="1740915752" destination="2130313510" link_origin="102267" count="348" start="45901" mode="walk" />
    <trip name="169" origin="1741491292" destination="1740915752" link_origin="34950" count="348" start="24001" mode="walk" />
    <trip name="170" origin="1740915752" destination="1741491292" link_origin="102267" count="348" start="41401" mode="walk" />
@@ -628,21 +504,9 @@
       <trip origin="2951364448" link_origin="73337" destination="3508714270" link_destination="100548" mode="metro"/>
       <trip origin="3508714270" link_origin="100548" destination="1740889526" mode="walk"/>
    </multi_trip>
-   <multi_trip name="189" count="77" start="70201" mode="metro" type="hospital">
-      <trip origin="31468434" link_origin="44533" destination="2951364448" mode="walk"/>
-      <trip origin="2951364448" link_origin="73337" destination="3508714270" link_destination="100548" mode="metro"/>
-      <trip origin="3508714270" link_origin="100548" destination="30517983" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="190" count="63" start="42601" mode="metro" type="hospital">
-      <trip origin="31468434" link_origin="44533" destination="2951364448" mode="walk"/>
-      <trip origin="2951364448" link_origin="73337" destination="2951364448" link_destination="73337" mode="metro"/>
-      <trip origin="2951364448" link_origin="73337" destination="30853455" mode="walk"/>
-   </multi_trip>
-   <multi_trip name="191" count="77" start="46801" mode="metro" type="hospital">
-      <trip origin="28991097" link_origin="27854" destination="25641395" mode="walk"/>
-      <trip origin="25641395" link_origin="50239" destination="2951364448" link_destination="73337" mode="metro"/>
-      <trip origin="2951364448" link_origin="73337" destination="3894486624" mode="walk"/>
-   </multi_trip>
+   <trip name="189" origin="31468434" destination="30517983" link_origin="44533" count="77" start="70201" mode="car" />
+   <trip name="190" origin="31468434" destination="30853455" link_origin="44533" count="63" start="42601" mode="car" />
+   <trip name="191" origin="28991097" destination="3894486624" link_origin="27854" count="77" start="46801" mode="car" />
    <trip name="192" origin="469701695" destination="4247134261" link_origin="27912" count="77" start="68401" mode="car" />
    <trip name="193" origin="31469256" destination="35359569" link_origin="44816" count="88" start="63001" mode="car" />
    <trip name="194" origin="31469256" destination="35359569" link_origin="44816" count="88" start="63001" mode="car" />
@@ -661,11 +525,7 @@
    <trip name="197" origin="31468434" destination="3472053061" link_origin="44533" count="88" start="45901" mode="car" />
    <trip name="198" origin="30879308" destination="1714794734" link_origin="102242" count="51" start="56701" mode="walk" />
    <trip name="199" origin="35293850" destination="1644338786" link_origin="102256" count="66" start="77401" mode="car" />
-   <multi_trip name="200" count="66" start="59401" mode="metro" type="hospital">
-      <trip origin="1738793104" link_origin="102272" destination="3358127152" mode="walk"/>
-      <trip origin="3358127152" link_origin="29669" destination="1986730595" link_destination="93227" mode="metro"/>
-      <trip origin="1986730595" link_origin="93227" destination="1986582368" mode="walk"/>
-   </multi_trip>
+   <trip name="200" origin="1738793104" destination="1986582368" link_origin="102272" count="66" start="59401" mode="car" />
    <trip name="201" origin="1738793100" destination="1986582543" link_origin="102224" count="35" start="61201" mode="walk" />
    <trip name="202" origin="1738793104" destination="1740915603" link_origin="102272" count="45" start="43201" mode="walk" />
    <trip name="203" origin="1738793104" destination="1740915603" link_origin="102272" count="45" start="68401" mode="walk" />

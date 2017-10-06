@@ -228,8 +228,8 @@
     <link nameOrigin="Artur Alvim" nameDestination="Patriarca" idOrigin="1650371046" idDestination="1650371046" />
 
     <link nameOrigin="República" nameDestination="Luz" idOrigin="60685761" idDestination="457055058" />
-    <link nameOrigin="Paulista" nameDestination="República" idOrigin="4236712716" idDestination="60685761" />
-    <link nameOrigin="Fradique Coutinho" nameDestination="Paulista" idOrigin="167403202" idDestination="4236712716" />
+    <link nameOrigin="Consolação" nameDestination="República" idOrigin="1819616337" idDestination="60685761" />
+    <link nameOrigin="Fradique Coutinho" nameDestination="Consolação" idOrigin="167403202" idDestination="1819616337" />
     <link nameOrigin="Faria Lima" nameDestination="Fradique Coutinho" idOrigin="173361748" idDestination="167403202" />
     <link nameOrigin="Pinheiros" nameDestination="Faria Lima" idOrigin="2367473602" idDestination="173361748" />
     <link nameOrigin="Butanta" nameDestination="Pinheiros" idOrigin="1664142142" idDestination="2367473602" />

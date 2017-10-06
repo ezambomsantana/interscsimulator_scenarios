@@ -1,6 +1,5 @@
 <metro>
-
-	<stations>
+  <stations>
     <station name="Vila Prudente" idNode="252018920" />
     <station name="Oratorio" idNode="2378322735" />
     <station name="Jabaquara" idNode="247909491" />
@@ -153,9 +152,25 @@
     <station name="Eng Manoel Feio" idNode="909285688" />
     <station name="Itaquaquecetuba" idNode="909285688" />
     <station name="Aracaré" idNode="909285688" />
-	</stations>
+    <station name="Hospital Saboia" idNode="247909491" />
+    <station name="Cidade Leonor" idNode="1111783726" />
+    <station name="Vila Babilônia" idNode="679639448" />
+    <station name="Vila Paulista" idNode="679639448" />
+    <station name="Jardim Aeroporto" idNode="304960487" />
+    <station name="Brooklin Paulista" idNode="297300411" />
+    <station name="José Diniz" idNode="302731524" />
+    <station name="Campo Belo" idNode="2578181865" />
+    <station name="Vila Cordeiro" idNode="1111669129" />
+    <station name="Chucri Zaidan" idNode="1107272690" />
+    <station name="Panamby" idNode="4411605851" />
+    <station name="Paraisópolis" idNode="2951364448" />
+    <station name="Américo Maurano" idNode="3358127152" />
+    <station name="Estádio Morumbi" idNode="1986730595" />
+    <station name="São Paulo - Morumbi" idNode="1741005300" />
 
-<links>
+  </stations>
+  <links>
+
     <link nameOrigin="Oratorio" nameDestination="Vila Prudente" idOrigin="2378322735" idDestination="252018920" />
 
     <link nameOrigin="Conceição" nameDestination="Jabaquara" idOrigin="660766755" idDestination="247909491" />
@@ -213,8 +228,8 @@
     <link nameOrigin="Artur Alvim" nameDestination="Patriarca" idOrigin="1650371046" idDestination="1650371046" />
 
     <link nameOrigin="República" nameDestination="Luz" idOrigin="60685761" idDestination="457055058" />
-    <link nameOrigin="Paulista" nameDestination="República" idOrigin="4236712716" idDestination="60685761" />
-    <link nameOrigin="Fradique Coutinho" nameDestination="Paulista" idOrigin="167403202" idDestination="4236712716" />
+    <link nameOrigin="Consolação" nameDestination="República" idOrigin="1819616337" idDestination="60685761" />
+    <link nameOrigin="Fradique Coutinho" nameDestination="Consolação" idOrigin="167403202" idDestination="1819616337" />
     <link nameOrigin="Faria Lima" nameDestination="Fradique Coutinho" idOrigin="173361748" idDestination="167403202" />
     <link nameOrigin="Pinheiros" nameDestination="Faria Lima" idOrigin="2367473602" idDestination="173361748" />
     <link nameOrigin="Butanta" nameDestination="Pinheiros" idOrigin="1664142142" idDestination="2367473602" />
@@ -328,6 +343,22 @@
     <link nameOrigin="Aracaré" nameDestination="Itaquaquecetuba" idOrigin="909285688" idDestination="909285688" />
     <link nameOrigin="Calmon Viana" nameDestination="Aracaré" idOrigin="909285688" idDestination="909285688" />
 
-</links>
+    <link nameOrigin="Hospital Saboia" nameDestination="Jabaquara" idOrigin="247909491" idDestination="247909491" />
+    <link nameOrigin="Cidade Leonor" nameDestination="Hospital Saboia" idOrigin="1111783726" idDestination="247909491" />
+    <link nameOrigin="Vila Babilônia" nameDestination="Cidade Leonor" idOrigin="679639448" idDestination="1111783726" />
+    <link nameOrigin="Vila Paulista" nameDestination="Vila Babilônia" idOrigin="679639448" idDestination="679639448" />
+    <link nameOrigin="Jardim Aeroporto" nameDestination="Vila Paulista" idOrigin="304960487" idDestination="679639448" />
+    <link nameOrigin="Brooklin Paulista" nameDestination="Jardim Aeroporto" idOrigin="297300411" idDestination="304960487" />
+    <link nameOrigin="José Diniz" nameDestination="Brooklin Paulista" idOrigin="302731524" idDestination="297300411" />
+    <link nameOrigin="Campo Belo" nameDestination="José Diniz" idOrigin="2578181865" idDestination="302731524" />
+    <link nameOrigin="Vila Cordeiro" nameDestination="Campo Belo" idOrigin="1111669129" idDestination="2578181865" />
+    <link nameOrigin="Chucri Zaidan" nameDestination="Vila Cordeiro" idOrigin="1107272690" idDestination="1111669129" />
+    <link nameOrigin="Morumbi" nameDestination="Chucri Zaidan" idOrigin="25641395" idDestination="1107272690" />
+    <link nameOrigin="Panamby" nameDestination="Morumbi" idOrigin="4411605851" idDestination="25641395" />
+    <link nameOrigin="Paraisópolis" nameDestination="Panamby" idOrigin="2951364448" idDestination="4411605851" />
+    <link nameOrigin="Américo Maurano" nameDestination="Paraisópolis" idOrigin="3358127152" idDestination="2951364448" />
+    <link nameOrigin="Estádio Morumbi" nameDestination="Américo Maurano" idOrigin="1986730595" idDestination="3358127152" />
+    <link nameOrigin="São Paulo - Morumbi" nameDestination="Estádio Morumbi" idOrigin="1741005300" idDestination="1986730595" />
 
+  </links>
 </metro>
